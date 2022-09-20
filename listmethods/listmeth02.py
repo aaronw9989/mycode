@@ -55,8 +55,10 @@ print(f'List after using pop {protoa}')
 # pop off the first item in the list
 list3 = protoa.pop(0)
 
+# display the list we just poped off
 print(f'Pop off the number list {list3}')
 
+# display what is left of our original list
 print(f'List after poping off the nested list {protoa}')
 
 
