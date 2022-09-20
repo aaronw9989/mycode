@@ -52,7 +52,12 @@ print(f'Pop of an item {list2}')
 
 print(f'List after using pop {protoa}')
 
+# pop off the first item in the list
+list3 = protoa.pop(0)
 
+print(f'Pop off the number list {list3}')
+
+print(f'List after poping off the nested list {protoa}')
 
 
 
