@@ -6,10 +6,12 @@
 def main():
 
     # create a list of animals
-    animals = ["Fox", "Fly", "Ant", "Bee", "Cod", "Cat", "Dog", "Yak", "Cow", "Hen", "Koi", "Hog", "Jay", "Kit"]
+    animals = ["Fox", "Fly", "Ant", "Bee", "Cod", "Cat", "Dog", "Yak", "Cow", "Hen", "Koi", "Hog"]
 
     # print the list of animals
     print(f'A list of animals: {animals} \n')
+
+    # append jay and kit to animals list
 
     # function to display animals
     def display_animals(): 
