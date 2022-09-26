@@ -27,6 +27,12 @@ def main():
     cards = resp.json()
 
     print(cards)
+    
+    # open a file and write our data into it
+    with open(setcode + "-set.index", "w") as mtgfiles:
+        # loop across cards in the set
+        for card in cards:
+            print(f"
 
 if __name__ == "__main__":
     main()
