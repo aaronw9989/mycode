@@ -1,14 +1,20 @@
 #!/usr/bin/python3
+
+
 # An object of Flask class is our WSGI application
+# import the flask class
 from flask import Flask
 
 # Flask constructor takes the name of current
 # module (__name__) as argument
+# app object 
+# Flask take our current module __name__ or script as the 
 app = Flask(__name__)
 
 # route() function of the Flask class is a
 # decorator, tells the application which URL
 # should call the associated function
+# if you type / as a path, then you will get hello world back as a response
 @app.route("/")
 def hello_world():
    return "Hello World"
